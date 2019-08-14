@@ -1,0 +1,47 @@
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 600px;
+  background-color: #0d2598;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+}
+
+.background {
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  z-index: 100;
+}
+
